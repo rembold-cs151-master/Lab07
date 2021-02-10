@@ -2,4 +2,4 @@
 
 Today you are practicing writing two functions to play a simple dice-based game. Follow along in the instructions to write out both functions.
 
-I was able to add a few very broad auto-tests to this, but owing to the random number of dice rolling, they are not very specific. But they can test at least some min/max cases.
+I was able to write some simple tests here to check the output of your function, despite their random nature (setting the _seed_ makes this possible). Really, this is a problem that you should be able to check easily just with some print statements, but this way you'll still get that happy green check if all goes well.
