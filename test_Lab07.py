@@ -34,3 +34,12 @@ def test_bigger_than_min_num_turns():
         assert (
             student >= m
         ), "You are somehow getting a total less than the minimum number of turns possible?"
+
+def test_smaller_than_max_num_turns():
+    params = [(20,), (20, 5,), (20, 5, 10), (100, 6, 2)]
+    mins = [10, 4, 4, 17]
+    for p, m in zip(params, mins):
+        student = play_game(*p)
+        assert (
+            student >= m
+        ), "You are somehow getting a total less than the minimum number of turns possible?"
