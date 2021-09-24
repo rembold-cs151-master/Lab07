@@ -1,4 +1,4 @@
-# Filename: Lab07.py
+# Filename: Lab06.py
 
 """
 Lab to practice using functions and the
